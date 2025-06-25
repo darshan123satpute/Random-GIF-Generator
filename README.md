@@ -13,9 +13,9 @@ https://random-gif-generator-opal.vercel.app/
 - CSS / Tailwind (optional)
 
 ## 📸 Preview
-![image](https://github.com/user-attachments/assets/4f2769f3-1cf4-44a4-8764-8cb1b590f838)
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/6dc14daa-9c4e-4671-89d3-cd0e6f766edd" />
+<img width="960" alt="image" src="https://github.com/user-attachments/assets/555fb508-be36-49bc-87da-21019bde1541" />
 
-![image](https://github.com/user-attachments/assets/64c2f3d6-3811-43b7-ad99-f7e00aeee1ca)
 
 ## 🔑 Giphy API Key
 - Sign up at [https://developers.giphy.com/](https://developers.giphy.com/)
