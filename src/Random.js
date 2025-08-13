@@ -30,13 +30,13 @@ function clickhandle(){
 }
   return (
     <div className='flex flex-col items-center gap-y-5 '>
-      <div className='font-bold text-[20px] mt-2 underline text-black'>RANDOM GENRATE</div>
+      <div className='font-bold text-[20px] mt-2  text-black'>RANDOM GENRATE</div>
    
 {
   loading ? (<Spinner/>):(  <img src={gif} className='w-[500px] h-[300px] object-cover'/>)
 }
      
-      <button type="submit" onClick={clickhandle} className='bg-white w-[400px] rounded-[8px] font-bold opacity-80 absolute mt-[373px] text-[20px] hover:text-red-600  border-red-600 border-[2px]'>GENRATE</button>
+      <button type="submit" onClick={clickhandle} className='bg-black text-white w-[200px] rounded-[8px] font-bold opacity-80 absolute mt-[373px] text-[20px] hover:text-green-500 '>GENRATE</button>
     </div>
   )
 }

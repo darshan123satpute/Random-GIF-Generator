@@ -33,13 +33,13 @@ function changehandel(event){
 }
   return (
     <div className='flex flex-col items-center gap-y-5 '>
-      <div className='font-bold text-[20px] mt-2 underline text-black uppercase'>Here's your {tag} GIF!</div>
+      <div className='font-bold text-[20px] mt-2 text-black uppercase'>Here's your {tag} GIF!</div>
    
 {
   loading ? (<Spinner/>):(  <img src={gif} className='w-[500px] h-[300px] object-cover'/>)
 }
-     <input onChange={changehandel} value={tag} className='bg-white w-[400px] h-[33px] rounded-[8px] font-bold opacity-80 absolute mt-[373px] text-[15px] text-center border-red-600 border-[2px]'/>
-      <button type="submit" onClick={clickhandle} className='bg-white w-[400px] h-[33px] rounded-[8px] font-bold opacity-80 absolute mt-[415px] text-[20px] hover:text-red-600  border-red-600 border-[2px]'>GENRATE</button>
+     <input onChange={changehandel} value={tag} className='bg-white w-[300px] h-[33px] rounded-[8px] font-bold opacity-80 absolute mt-[373px] text-[15px] text-center border-red-600 border-[2px]'/>
+      <button type="submit" onClick={clickhandle} className='bg-black text-white w-[200px] h-[33px] rounded-[8px] font-bold opacity-80 absolute mt-[415px] text-[20px] hover:text-green-500  border-[2px]'>GENRATE</button>
     </div>
   )
 }
